@@ -1,0 +1,116 @@
+.showcase-container { background-color: #fff; display: flex; padding-top: 80px; flex-direction: column; align-items: center; }
+.brand-header { display: flex; width: 100%; max-width: 914px; flex-direction: column; font-size: 20px; color: #828282; font-weight: 500; line-height: 150%; }
+
+.brand-container {
+    display: flex;
+    align-self: flex-start; margin: 51px 0 0 53px;
+}
+.brand-name {
+    font-family: Inter, sans-serif;
+    margin-left: 10px; /* Adjust as needed for spacing */
+}
+.nav-menu { align-self: flex-end; display: flex; margin-top: 58px; width: 707px; max-width: 100%; gap: 20px; color: #000; }
+.nav-item { font-family: Inter, sans-serif; flex-grow: 1; }
+.hero-title {
+    letter-spacing: -1.28px;
+    align-self: flex-start;
+    margin: 51px 0 0 53px;
+    font: 700 64px Inter, sans-serif;
+}
+.hero-subtitle {
+    letter-spacing: -1.28px;
+    align-self: flex-start; /* Changed to flex-start */
+    margin: 10px 0 0 450px; /* Adjusted margin-left to move right */
+    font: 700 64px Inter, sans-serif;
+}
+.hero-image {
+    aspect-ratio: 1.75;
+    object-fit: cover;
+    width: 100%;
+    height: 500px; /* Fixed height value */
+    margin-top: 73px;
+}
+.featured-section { 
+    align-self: stretch; 
+    display: flex; 
+    margin-top: 125px; 
+    width: 100%; 
+    flex-direction: column; 
+    padding: 0 62px; 
+    align-items: center; 
+    text-align: center; 
+}
+.featured-description { color: #000; align-self: flex-start; margin-left: 650px; font: 600 24px/26px Inter, sans-serif; }
+.gallery-container { margin-top: 18px; }
+.gallery-grid { gap: 20px; display: flex; }
+.gallery-column { display: flex; flex-direction: column; line-height: normal; width: 76%; margin-left: 0; }
+.gallery-item { flex-grow: 1; }
+.gallery-row { gap: 20px; display: flex; }
+.gallery-image { aspect-ratio: 1.08; object-fit: cover; width: 100%; flex-grow: 1; }
+.new-arrivals-title { color: #000; align-self: center; margin-top: 107px; font: 700 32px Istok Web, sans-serif; }
+.category-section { margin-top: 54px; width: 100%; max-width: 1211px; }
+.category-grid { gap: 20px; display: flex; }
+.category-item { display: flex; flex-grow: 1; flex-direction: column; font-size: 32px; color: #000; font-weight: 700; padding: 0 20px; }
+.category-image { aspect-ratio: 1.56; object-fit: cover; width: 100%; }
+.category-name { font-family: Istok Web, sans-serif; align-self: center; margin-top: 16px; }
+.product-image { aspect-ratio: 1.27; object-fit: cover; width: 714px; margin-top: 70px; max-width: 100%; }
+.product-name { color: #000; margin-top: 20px; font: 700 32px Istok Web, sans-serif; }
+.contact-title { color: #000; margin-top: 122px; font: 700 64px Istok Web, sans-serif; }
+.input-field { border-radius: 10px; border: 1px solid #1e1e1e; background-color: #fff; margin-top: 57px; width: 533px; max-width: 100%; color: rgba(0, 0, 0, 0.5); text-align: center; padding: 55px 55px 22px; font: 700 18px Inria Serif, sans-serif; }
+.password-field { border-radius: 10px; border: 1px solid #1e1e1e; background-color: #fff; margin-top: 24px; width: 533px; max-width: 100%; color: #7e7e7e; text-align: center; padding: 39px 52px; font: 700 18px Inria Serif, sans-serif; }
+.forgot-password { color: #de1f1f; margin: 14px 0 0 193px; font: 400 16px Inter, sans-serif; }
+.login-button { border-radius: 20px; background-color: #000; display: flex; margin-top: 77px; align-items: flex-start; gap: 0; font-size: 20px; color: #fff; font-weight: 700; text-align: center; padding: 0 20px 22px; }
+.button-background { border-radius: 8px; background-color: #000; align-self: flex-start; width: 277px; max-width: 100%; height: 37px; }
+.button-text { font-family: Inter, sans-serif; align-self: flex-end; margin-top: 25px; flex-grow: 1; flex-basis: auto; }
+.mission-title { color: #000; text-align: center; margin-top: 244px; font: 600 24px/110% Inter, sans-serif; }
+.mission-description { color: #828282; text-align: center; margin-top: 25px; font: 400 24px/150% Inter, sans-serif; }
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-self: stretch;
+    position: relative;
+    min-height: 263px;
+    margin-top: 31px;
+    width: 100%;
+    align-items: center; /* Center the image horizontally */
+    justify-content: center;
+
+
+  }
+  
+  .footer-image {
+    width: 100%; /* Make the image take up the full width of the container */
+    height: auto; /* Maintain the aspect ratio of the image */
+  }
+.footer-background { position: absolute; inset: 0; height: 100%; width: 100%; object-fit: cover; }
+.footer-icon { aspect-ratio: 0.91; object-fit: contain; width: 30px; margin: 0 0 56px 25px; }
+
+@media (max-width: 991px) {
+  .brand-header { max-width: 100%; }
+  .brand-name { max-width: 100%; }
+  .nav-menu { flex-wrap: wrap; margin-top: 40px; }
+  .hero-title { max-width: 100%; margin-top: 40px; font-size: 40px; }
+  .hero-subtitle { max-width: 100%; margin-right: 10px; font-size: 40px; }
+  .hero-image { max-width: 100%; margin-top: 40px; }
+  .featured-section { max-width: 100%; margin-top: 40px; padding: 0 20px; }
+  .featured-description { max-width: 100%; }
+  .gallery-container { max-width: 100%; }
+  .gallery-grid { flex-direction: column; align-items: stretch; gap: 0; }
+  .gallery-column { width: 100%; }
+  .gallery-item { max-width: 100%; margin-top: 40px; }
+  .gallery-row { flex-direction: column; align-items: stretch; gap: 0; }
+  .new-arrivals-title { margin-top: 40px; }
+  .category-section { max-width: 100%; margin-top: 40px; }
+  .category-grid { flex-direction: column; align-items: stretch; gap: 0; }
+  .category-item { max-width: 100%; margin-top: 40px; }
+  .product-image { margin-top: 40px; }
+  .contact-title { margin-top: 40px; font-size: 40px; }
+  .input-field { margin-top: 40px; padding: 20px; }
+  .password-field { padding: 20px; }
+  .login-button { flex-wrap: wrap; margin-top: 40px; }
+  .mission-title { margin-top: 40px; }
+  .mission-description { max-width: 100%; }
+  .footer-container { max-width: 100%; padding: 40px 20px; }
+  .footer-icon { margin: 0 0 40px 10px; }
+}
